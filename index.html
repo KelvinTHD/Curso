@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cursos de Tecnologia</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Cursos Profissionais de Tecnologia</h1>
+        <p>Conheça nossas formações nas áreas mais procuradas do mercado!</p>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Nossos Cursos</h2>
+
+            <div class="curso">
+                <h3>Engenharia de Software</h3>
+                <p>Engenharia de Software é a área que ensina como planejar, desenvolver, testar e manter sistemas de software complexos. Durante o curso, o aluno aprende lógica de programação, estruturas de dados, algoritmos, modelagem de sistemas, arquitetura de software, engenharia de requisitos e qualidade de código. Também há foco em metodologias ágeis, integração contínua e práticas do mercado de TI. É um curso ideal para quem quer atuar em empresas de tecnologia ou criar seu próprio sistema.</p>
+            </div>
+
+            <div class="curso">
+                <h3>Análise e Desenvolvimento de Sistemas</h3>
+                <p>Este curso é mais técnico e prático, com duração geralmente de 2 a 3 anos. Nele, o estudante aprende desde o desenvolvimento de sistemas web e mobile até banco de dados, lógica de programação, análise de requisitos e testes. É muito procurado por quem deseja entrar rapidamente no mercado como programador, desenvolvedor front-end, back-end ou full-stack. O curso foca na prática e na construção de projetos reais com linguagens como Java, Python, PHP e JavaScript.</p>
+            </div>
+
+            <div class="curso">
+                <h3>Ciência da Computação</h3>
+                <p>A Ciência da Computação é uma das formações mais completas da área. O curso tem uma base teórica forte e envolve lógica matemática, algoritmos avançados, estruturas de dados, programação de baixo nível, inteligência artificial, redes de computadores e sistemas operacionais. Os alunos também estudam segurança, criptografia, computação gráfica e aprendizado de máquina. Ideal para quem quer ser pesquisador, cientista de dados, desenvolvedor sênior ou seguir carreira acadêmica.</p>
+            </div>
+
+            <div class="curso">
+                <h3>Segurança da Informação</h3>
+                <p>Com o crescimento dos ataques virtuais, a segurança da informação se tornou uma das áreas mais valorizadas. O curso ensina a proteger dados, sistemas e redes contra invasões, roubos e falhas. Os alunos aprendem sobre criptografia, ética hacker, auditoria de sistemas, legislação digital, redes seguras e prevenção de ataques cibernéticos. Profissionais formados podem atuar como analistas de segurança, peritos digitais e especialistas em defesa digital em empresas públicas ou privadas.</p>
+            </div>
+
+            <div class="curso">
+                <h3>Banco de Dados</h3>
+                <p>Este curso prepara o aluno para lidar com o armazenamento, organização e recuperação de dados. Abrange temas como modelagem relacional, normalização, SQL, administração de bancos Oracle, MySQL e PostgreSQL. Também aborda técnicas de performance, segurança de dados e integração com sistemas e APIs. É ideal para quem deseja atuar como DBA, analista ou arquiteto de dados em empresas de tecnologia ou setores que lidam com grandes volumes de informação.</p>
+            </div>
+
+            <div class="curso">
+                <h3>Desenvolvimento Mobile</h3>
+                <p>Voltado para a criação de aplicativos para smartphones e tablets, este curso ensina o uso de tecnologias como Flutter, Kotlin, Swift e React Native. O aluno aprende desde os fundamentos da programação mobile até design responsivo, acesso a APIs, integração com banco de dados e publicação em lojas de aplicativos. Perfeito para quem quer trabalhar como desenvolvedor mobile freelancer ou em empresas que criam soluções digitais.</p>
+            </div>
+
+            <div class="galeria">
+                <h2>Nosso Campus</h2>
+                <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80" alt="Campus moderno com gramado">
+                <img src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238?auto=format&fit=crop&w=800&q=80" alt="Sala de aula de tecnologia">
+            </div>
+        </section>
+
+        <section>
+            <h2>Inscreva-se</h2>
+            <form id="formularioCurso">
+                <input type="text" id="nome" placeholder="Nome completo" required />
+                <input type="email" id="email" placeholder="E-mail" required />
+                <select id="cursoSelecionado" required>
+                    <option value="">Selecione um curso</option>
+                    <option value="engenharia">Engenharia de Software</option>
+                    <option value="analise">Análise e Desenvolvimento de Sistemas</option>
+                    <option value="ciencia">Ciência da Computação</option>
+                    <option value="seguranca">Segurança da Informação</option>
+                    <option value="banco">Banco de Dados</option>
+                    <option value="mobile">Desenvolvimento Mobile</option>
+                </select>
+                <div class="error" id="mensagemErro"></div>
+                <button type="submit">Enviar Inscrição</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+            <p>📞 WhatsApp: (43) 99999-9999</p>
+            <p>📧 E-mail: atendimento@cursotech.com</p>
